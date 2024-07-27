@@ -1,0 +1,15 @@
+main: to.us.electr0n.servernews.ServerNews
+name: ServerNews
+version: "1.0"
+api-version: "1.21"
+author: electr0n
+description: Send custom news messages to your players
+commands:
+  servernews:
+    description: Command to control ServerNews
+    usage: "For a list of commands, type /servernews help"
+    permission: servernews.default
+permissions:
+  servernews.default:
+    description: "Default permission for ServerNews, op only"
+    default: op
