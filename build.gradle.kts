@@ -1,6 +1,6 @@
 plugins {
   java
-  id("xyz.jpenilla.run-paper") version "2.3.0"
+  id("xyz.jpenilla.run-paper") version "2.3.1"
 }
 
 group = "to.us.electr0n.servernews"
@@ -16,11 +16,11 @@ repositories {
 }
 
 dependencies {
-  compileOnly("io.papermc.paper:paper-api:1.21-R0.1-SNAPSHOT")
+  compileOnly("io.papermc.paper:paper-api:1.21.3-R0.1-SNAPSHOT")
 }
 
 tasks {
   runServer {
-    minecraftVersion("1.21")
+    minecraftVersion("1.21.3")
   }
 }

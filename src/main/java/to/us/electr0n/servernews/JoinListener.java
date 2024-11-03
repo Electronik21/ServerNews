@@ -2,9 +2,11 @@ package to.us.electr0n.servernews;
 
 import java.util.List;
 import java.util.ArrayList;
+
 import org.bukkit.event.Listener;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.player.PlayerJoinEvent;
+
 import net.kyori.adventure.text.Component;
 
 public class JoinListener implements Listener {

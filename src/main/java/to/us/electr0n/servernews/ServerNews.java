@@ -1,17 +1,18 @@
 package to.us.electr0n.servernews;
 
-import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.Bukkit;
-import net.kyori.adventure.text.Component;
-import net.kyori.adventure.text.minimessage.MiniMessage;
+import java.io.File;
 import java.util.List;
 import java.util.ArrayList;
-import java.util.UUID;
 import java.util.Map;
-import java.io.File;
+import java.util.UUID;
+
+import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
+
+import net.kyori.adventure.text.minimessage.MiniMessage;
 
 public class ServerNews extends JavaPlugin {
 
